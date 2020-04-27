@@ -3,8 +3,8 @@ const arena = arenaEl.getContext('2d');
 arena.fillStyle = 'blue';
 arena.fillRect(0, 0, arenaEl.width, arenaEl.height);
 arena.fillStyle = 'black';
-arena.fillRect(5, 5, 640, 640);
-arena.clearRect(5, 5, 640, 640);
+arena.fillRect(5, 5, 640, 480);
+arena.clearRect(5, 5, 640, 480);
 
 
 // arena.strokeStyle = "blue";
